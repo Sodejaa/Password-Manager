@@ -7,12 +7,12 @@ This simple C program provides a basic credential manager with functionalities t
   - Compile the program using the following command:
 
     ```bash
-    gcc credentials_manager.c -o credentials_manager
+    gcc passwordmanager.c -o passwordmanager
     ```
 2. Run the Program:
   - Execute the compiled program:
      ```bash
-    ./credentials_manager
+    ./passwordmanager
      ```
 3. Choose Action:
  - The program will prompt you to choose between 'Save', 'Load', or 'Exit'.
@@ -36,7 +36,7 @@ This simple C program provides a basic credential manager with functionalities t
 -  The program validates password confirmation during the saving process.
 
 ## File Structure
-- `credentials_manager.c`: The main C source code file.
+- `passwordmanager.c`: The main C source code file.
 - `credentials.txt`: The file where credentials are stored.
   
 ## License
